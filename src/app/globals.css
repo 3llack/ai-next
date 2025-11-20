@@ -1,42 +1,161 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.nav_hero{
+  background: #fff;
+  color: #fff;
+  padding-top: 100px;
+  line-height: 10px;
+}
+.nav_hero span {
+  background-color: #fff;
+  color: #4C3B02;
+  padding: 5px;
+  border-radius: 50px;
+}
+.navbar-brand{
+  padding-bottom: 35px !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.input_section {
+  color: #000;
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  border: 1px solid #bebebe;
+  border-radius: 50px;
+  text-align: center;         
+  font-size: 15px;
+  box-sizing: border-box;
+  background: url('/assets/imgs/search.svg') no-repeat 12px center;
+  background-size: 18px;
+  padding: 15px 15px 15px 40px;
+}
+
+.input_section::placeholder {
+  color: #bebebe;
+}
+.input_section:focus {
+  outline: none;
+}
+.bg-color{
+  background-color: #efefef !important;
+} 
+
+#main{
+  padding: 25px 0;
+}
+#main h2{
+  color: #4C3B02;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.shadowed-body {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.card-body img {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.card-body img:hover {
+  transform: scale(1.15);
+}
+.card-title{
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 3.5px;
+  color:  #000 !important;
+  text-align: center;
+}
+.card-text{
+  padding-top: 3.5px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
+#footer{
+  padding: 25px 10px;
+  text-align: center;
+}
+.estate-label {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6c757d; 
+  text-align: center;
+  max-width: 90px;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+@media (max-width: 450px) {
+  body{
+    background-color: #EBEBEB !important;
+  }
+  .nav_hero{
+    background-color: #EBEBEB !important;
+  }
+  .logos {
+    background-color: #fdfdfd !important;
+    border-radius: 15px !important;
+    padding: 17px 10px !important;
+    max-height: 114px;
+    overflow: hidden;
+  }
+  .input_section{ 
+    background-color: #ddd; 
+    border: none !important; 
+    font-weight: lighter;
+  }
+  .input_section::placeholder{ 
+    color: #525252; 
+    font-size: 9px; 
+  }
+}
+@media (min-width: 460px) {
+  .logos {
+    max-height: 95px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 576px) {
+  .estate-label {
+    font-size: 0.7rem;
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+@media (min-width: 360px) {
+  .nav_hero h1{
+    font-size: 18px;
+  }
+  .input_section{
+    width: 80vw;
+    padding: 15px 15px 15px 40px;
+  }
+  .main h2{
+    font-size: 25px !important;
+  }
+  .card-body{
+    margin-top: 15px;
+    display: block;
+    justify-content: center;
+  }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@media (min-width: 768px) {
+  .nav_hero h1{
+    font-size: 35px;
+  }
+  .card-body{
+    padding: 5px;
+  }
+  .card-title{
+    font-size: 25px;
   }
 }

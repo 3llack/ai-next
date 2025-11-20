@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "₦227,000,000",
+    "description": "Begin with 10% down payment, get allocation at 30%. Move in at 50% and spread the balance over 5 years at 9.9% interest.",
+    "image": "/assets/imgs/house1.png"
+  },
+  {
+    "id": 2,
+    "title": "₦85,000,000",
+    "description": "Start with 10% down payment, get allocation at 30% and move in at 50%. Pay the balance over 5 years at 9.9% interest rate.",
+    "image": "/assets/imgs/house2.png"
+  },
+  {
+    "id": 3,
+    "title": "₦298,000,000",
+    "description": "Pay an initial 10% down payment, get allocation at 30% and move in at 50%. Enjoy 5 year flexible payment plan at 9.9% interest.",
+    "image": "/assets/imgs/house3.png"
+  },
+  {
+    "id": 4,
+    "title": "₦150,000,000",
+    "description": "Flexible payment options available. Start with 10% down payment, get allocation at 30%. Move in at 50% with 5-year payment plan.",
+    "image": "/assets/imgs/house1.png"
+  },
+  {
+    "id": 5,
+    "title": "₦320,000,000",
+    "description": "Premium estate property with 10% initial payment. Get allocation at 30%, move in at 50%. Balance over 5 years at competitive rates.",
+    "image": "/assets/imgs/house2.png"
+  },
+  {
+    "id": 6,
+    "title": "₦95,000,000",
+    "description": "Affordable housing solution with easy payment plan. 10% down, allocation at 30%, move-in at 50%. 5-year flexible terms.",
+    "image": "/assets/imgs/house3.png"
+  },
+  {
+    "id": 7,
+    "title": "₦180,000,000",
+    "description": "Modern estate living with convenient payment structure. Begin with 10% down payment and enjoy 9.9% interest rate over 5 years.",
+    "image": "/assets/imgs/house1.png"
+  },
+  {
+    "id": 8,
+    "title": "₦250,000,000",
+    "description": "Luxury property in prime location. 10% down payment, get allocated at 30%, move in at 50%. Spread balance over 5 years.",
+    "image": "/assets/imgs/house2.png"
+  },
+  {
+    "id": 9,
+    "title": "₦120,000,000",
+    "description": "Great investment opportunity with flexible terms. Start with 10% down, allocation at 30%, move-in at 50%. 9.9% interest rate.",
+    "image": "/assets/imgs/house3.png"
+  },
+  {
+    "id": 10,
+    "title": "₦199,000,000",
+    "description": "Perfect family home with affordable payment plan. 10% initial payment, get allocation at 30%, move in at 50%. 5-year balance.",
+    "image": "/assets/imgs/house1.png"
+  }
+]
